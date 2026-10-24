@@ -1,0 +1,180 @@
+Cricket07BowlingPlan 1.0 initializing (T10 powerplay B1 B2 B3).
+APPLIED: opening 46F350, end-over 471CC0, restriction-length 48EEF0.
+Cricket07BowlingPlan 1.0 initializing (T10 powerplay B1 B2 B3).
+APPLIED: opening 46F350, end-over 471CC0, restriction-length 48EEF0.
+Cricket07BowlingPlan 1.1 initializing (CPU actor/assignment detection fixed; T10 B1 B2 B3).
+APPLIED: opening 46F350, end-over 471CC0, restriction-length 48EEF0.
+OPEN innings=1 overs=10 completed=0 mode=0 slot=0 cpu=1 current=3892 other=3860
+PLAN innings=1 team=7 overs=10 resume=0: 1:B1 2:B2 3:B3 4:B5 5:B4 6:B3 7:B5 8:B6 9:B2 10:B1
+B1 = player 3892 (S.Harmison)
+B2 = player 3860 (M.Hoggard)
+B3 = player 25679 (A.Flintoff)
+B4 = player 20526 (A.Giles)
+B5 = player 7822 (P.Collingwood)
+B6 = player 24796 (M.Vaughan)
+OPEN APPLIED innings=1 overs=10 completed=0 mode=0 slot=0 cpu=1 current=3892 other=3860
+OPEN innings=1 overs=10 completed=0 mode=0 slot=0 cpu=1 current=3892 other=3860
+PLAN innings=1 team=7 overs=10 resume=0: 1:B1 2:B2 3:B3 4:B4 5:B5 6:B6 7:B3 8:B4 9:B2 10:B1
+B1 = player 3892 (S.Harmison)
+B2 = player 3860 (M.Hoggard)
+B3 = player 25679 (A.Flintoff)
+B4 = player 20526 (A.Giles)
+B5 = player 7822 (P.Collingwood)
+B6 = player 24796 (M.Vaughan)
+OPEN APPLIED innings=1 overs=10 completed=0 mode=0 slot=0 cpu=1 current=3892 other=3860
+END innings=1 overs=10 completed=1 mode=0 slot=0 cpu=1 current=3892 other=3860
+NEXT APPLIED innings=1 overs=10 completed=1 mode=0 slot=0 cpu=1 current=3860 other=3892
+END innings=1 overs=10 completed=2 mode=0 slot=0 cpu=1 current=3860 other=3892
+NEXT APPLIED innings=1 overs=10 completed=2 mode=0 slot=0 cpu=1 current=25679 other=3860
+END innings=1 overs=10 completed=3 mode=0 slot=0 cpu=1 current=25679 other=3860
+NEXT APPLIED innings=1 overs=10 completed=3 mode=0 slot=0 cpu=1 current=20526 other=25679
+END innings=1 overs=10 completed=4 mode=0 slot=0 cpu=1 current=20526 other=25679
+NEXT APPLIED innings=1 overs=10 completed=4 mode=0 slot=0 cpu=1 current=7822 other=20526
+END innings=1 overs=10 completed=5 mode=0 slot=0 cpu=1 current=7822 other=20526
+NEXT APPLIED innings=1 overs=10 completed=5 mode=0 slot=0 cpu=1 current=24796 other=7822
+END innings=1 overs=10 completed=6 mode=0 slot=0 cpu=1 current=24796 other=7822
+NEXT APPLIED innings=1 overs=10 completed=6 mode=0 slot=0 cpu=1 current=25679 other=24796
+END innings=1 overs=10 completed=7 mode=0 slot=0 cpu=1 current=25679 other=24796
+NEXT APPLIED innings=1 overs=10 completed=7 mode=0 slot=0 cpu=1 current=20526 other=25679
+END innings=1 overs=10 completed=8 mode=0 slot=0 cpu=1 current=20526 other=25679
+NEXT APPLIED innings=1 overs=10 completed=8 mode=0 slot=0 cpu=1 current=3860 other=20526
+END innings=1 overs=10 completed=9 mode=0 slot=0 cpu=1 current=3860 other=20526
+NEXT APPLIED innings=1 overs=10 completed=9 mode=0 slot=0 cpu=1 current=3892 other=3860
+OPEN innings=2 overs=10 completed=0 mode=0 slot=0 cpu=0 current=14393 other=25731
+END innings=2 overs=10 completed=1 mode=0 slot=0 cpu=1 current=14393 other=25731
+PLAN innings=2 team=39 overs=10 resume=1: 2:B2 3:B3 4:B6 5:B3 6:B4 7:B5 8:B4 9:B2 10:B1
+B1 = player 14393 (I.Bradley)
+B2 = player 25731 (C.Colbert)
+B3 = player 26061 (M.Davids)
+B4 = player 3326 (P.Connors)
+B5 = player 194 (D.Brasco)
+B6 = player 10706 (C.Gaist)
+NEXT APPLIED innings=2 overs=10 completed=1 mode=0 slot=0 cpu=1 current=25731 other=14393
+END innings=2 overs=10 completed=2 mode=0 slot=0 cpu=1 current=25731 other=14393
+NEXT APPLIED innings=2 overs=10 completed=2 mode=0 slot=0 cpu=1 current=26061 other=25731
+END innings=2 overs=10 completed=3 mode=0 slot=0 cpu=1 current=26061 other=25731
+NEXT APPLIED innings=2 overs=10 completed=3 mode=0 slot=0 cpu=1 current=10706 other=26061
+END innings=2 overs=10 completed=4 mode=0 slot=0 cpu=1 current=10706 other=26061
+NEXT APPLIED innings=2 overs=10 completed=4 mode=0 slot=0 cpu=1 current=26061 other=10706
+END innings=2 overs=10 completed=5 mode=0 slot=0 cpu=1 current=26061 other=10706
+NEXT APPLIED innings=2 overs=10 completed=5 mode=0 slot=0 cpu=1 current=3326 other=26061
+END innings=2 overs=10 completed=6 mode=0 slot=0 cpu=1 current=3326 other=26061
+NEXT APPLIED innings=2 overs=10 completed=6 mode=0 slot=0 cpu=1 current=194 other=3326
+END innings=2 overs=10 completed=7 mode=0 slot=0 cpu=1 current=194 other=3326
+NEXT APPLIED innings=2 overs=10 completed=7 mode=0 slot=0 cpu=1 current=3326 other=194
+END innings=2 overs=10 completed=8 mode=0 slot=0 cpu=1 current=3326 other=194
+NEXT APPLIED innings=2 overs=10 completed=8 mode=0 slot=0 cpu=1 current=25731 other=3326
+END innings=2 overs=10 completed=9 mode=0 slot=0 cpu=1 current=25731 other=3326
+NEXT APPLIED innings=2 overs=10 completed=9 mode=0 slot=0 cpu=1 current=14393 other=25731
+Cricket07BowlingPlan 2.0 initializing (40/45/50 rotation and three fielding phases).
+APPLIED: rotation/PP, ODI field selector, three legality checks, phase warning and final field placement (9 hooks).
+OPEN innings=1 overs=10 completed=0 mode=0 slot=0 cpu=1 current=3892 other=3860
+PLAN innings=1 team=7 overs=10 resume=0: 1:B1 2:B2 3:B3 4:B6 5:B5 6:B4 7:B5 8:B3 9:B2 10:B1
+B1 = player 3892 (S.Harmison)
+B2 = player 3860 (M.Hoggard)
+B3 = player 25679 (A.Flintoff)
+B4 = player 20526 (A.Giles)
+B5 = player 7822 (P.Collingwood)
+B6 = player 24796 (M.Vaughan)
+OPEN APPLIED innings=1 overs=10 completed=0 mode=0 slot=0 cpu=1 current=3892 other=3860
+OPEN innings=1 overs=10 completed=0 mode=0 slot=0 cpu=1 current=3892 other=3860
+PLAN innings=1 team=7 overs=10 resume=0: 1:B1 2:B2 3:B3 4:B4 5:B6 6:B5 7:B3 8:B5 9:B2 10:B1
+B1 = player 3892 (S.Harmison)
+B2 = player 3860 (M.Hoggard)
+B3 = player 25679 (A.Flintoff)
+B4 = player 20526 (A.Giles)
+B5 = player 7822 (P.Collingwood)
+B6 = player 24796 (M.Vaughan)
+OPEN APPLIED innings=1 overs=10 completed=0 mode=0 slot=0 cpu=1 current=3892 other=3860
+OPEN innings=1 overs=50 completed=0 mode=0 slot=0 cpu=1 current=3152 other=4941
+PLAN innings=1 team=30 overs=50 resume=0: 1:B1 2:B2 3:B1 4:B2 5:B1 6:B2 7:B1 8:B2 9:B3 10:B4 11:B3 12:B4 13:B5 14:B3 15:B5 16:B3 17:B5 18:B4 19:B5 20:B4 21:B2 22:B4 23:B2 24:B4 25:B6 26:B5 27:B6 28:B5 29:B1 30:B3 31:B1 32:B3 33:B4 34:B6 35:B4 36:B6 37:B3 38:B4 39:B3 40:B4 41:B3 42:B1 43:B3 44:B2 45:B1 46:B2 47:B1 48:B2 49:B1 50:B2
+B1 = player 3152 (S.Pollock)
+B2 = player 4941 (M.Ntini)
+B3 = player 25003 (A.Hall)
+B4 = player 29933 (N.Boje)
+B5 = player 2390 (J.Kallis)
+B6 = player 12388 (J.Rudolph)
+OPEN APPLIED innings=1 overs=50 completed=0 mode=0 slot=0 cpu=1 current=3152 other=4941
+OPEN innings=1 overs=50 completed=0 mode=0 slot=0 cpu=1 current=3152 other=4941
+PLAN innings=1 team=30 overs=50 resume=0: 1:B1 2:B2 3:B1 4:B2 5:B1 6:B2 7:B1 8:B2 9:B3 10:B4 11:B3 12:B4 13:B5 14:B3 15:B5 16:B3 17:B5 18:B4 19:B5 20:B4 21:B2 22:B5 23:B2 24:B5 25:B4 26:B3 27:B4 28:B3 29:B6 30:B1 31:B6 32:B1 33:B4 34:B6 35:B4 36:B6 37:B3 38:B4 39:B3 40:B4 41:B3 42:B1 43:B3 44:B2 45:B1 46:B2 47:B1 48:B2 49:B1 50:B2
+B1 = player 3152 (S.Pollock)
+B2 = player 4941 (M.Ntini)
+B3 = player 25003 (A.Hall)
+B4 = player 29933 (N.Boje)
+B5 = player 2390 (J.Kallis)
+B6 = player 12388 (J.Rudolph)
+OPEN APPLIED innings=1 overs=50 completed=0 mode=0 slot=0 cpu=1 current=3152 other=4941
+FIELD APPLIED over=1 phase=1 max=2 outside=2->2 moved_mask=000
+END innings=1 overs=50 completed=1 mode=2 slot=0 cpu=1 current=3152 other=4941
+NEXT APPLIED innings=1 overs=50 completed=1 mode=2 slot=0 cpu=1 current=4941 other=3152
+END innings=1 overs=50 completed=2 mode=2 slot=0 cpu=1 current=4941 other=3152
+NEXT APPLIED innings=1 overs=50 completed=2 mode=2 slot=0 cpu=1 current=3152 other=4941
+END innings=1 overs=50 completed=3 mode=2 slot=0 cpu=1 current=3152 other=4941
+NEXT APPLIED innings=1 overs=50 completed=3 mode=2 slot=0 cpu=1 current=4941 other=3152
+END innings=1 overs=50 completed=4 mode=2 slot=0 cpu=1 current=4941 other=3152
+NEXT APPLIED innings=1 overs=50 completed=4 mode=2 slot=0 cpu=1 current=3152 other=4941
+END innings=1 overs=50 completed=5 mode=0 slot=0 cpu=1 current=3152 other=4941
+NEXT APPLIED innings=1 overs=50 completed=5 mode=0 slot=0 cpu=1 current=4941 other=3152
+FIELD APPLIED over=6 phase=1 max=2 outside=2->2 moved_mask=000
+END innings=1 overs=50 completed=6 mode=0 slot=0 cpu=1 current=4941 other=3152
+NEXT APPLIED innings=1 overs=50 completed=6 mode=0 slot=0 cpu=1 current=3152 other=4941
+FIELD APPLIED over=7 phase=1 max=2 outside=2->2 moved_mask=000
+END innings=1 overs=50 completed=7 mode=0 slot=0 cpu=1 current=3152 other=4941
+NEXT APPLIED innings=1 overs=50 completed=7 mode=0 slot=0 cpu=1 current=4941 other=3152
+FIELD APPLIED over=8 phase=1 max=2 outside=2->2 moved_mask=000
+END innings=1 overs=50 completed=8 mode=0 slot=0 cpu=1 current=4941 other=3152
+NEXT APPLIED innings=1 overs=50 completed=8 mode=0 slot=0 cpu=1 current=25003 other=4941
+FIELD APPLIED over=9 phase=1 max=2 outside=2->2 moved_mask=000
+END innings=1 overs=50 completed=9 mode=0 slot=0 cpu=1 current=25003 other=4941
+NEXT APPLIED innings=1 overs=50 completed=9 mode=0 slot=0 cpu=1 current=29933 other=25003
+FIELD APPLIED over=10 phase=1 max=2 outside=2->2 moved_mask=000
+END innings=1 overs=50 completed=10 mode=0 slot=0 cpu=1 current=29933 other=25003
+NEXT APPLIED innings=1 overs=50 completed=10 mode=0 slot=0 cpu=1 current=25003 other=29933
+FIELD APPLIED over=11 phase=2 max=4 outside=3->3 moved_mask=000
+END innings=1 overs=50 completed=11 mode=0 slot=0 cpu=1 current=25003 other=29933
+NEXT APPLIED innings=1 overs=50 completed=11 mode=0 slot=0 cpu=1 current=29933 other=25003
+FIELD APPLIED over=12 phase=2 max=4 outside=4->4 moved_mask=000
+END innings=1 overs=50 completed=12 mode=0 slot=0 cpu=1 current=29933 other=25003
+NEXT APPLIED innings=1 overs=50 completed=12 mode=0 slot=0 cpu=1 current=2390 other=29933
+FIELD APPLIED over=13 phase=2 max=4 outside=3->3 moved_mask=000
+END innings=1 overs=50 completed=13 mode=0 slot=0 cpu=1 current=2390 other=29933
+NEXT APPLIED innings=1 overs=50 completed=13 mode=0 slot=0 cpu=1 current=25003 other=2390
+FIELD APPLIED over=14 phase=2 max=4 outside=3->3 moved_mask=000
+END innings=1 overs=50 completed=14 mode=0 slot=0 cpu=1 current=25003 other=2390
+NEXT APPLIED innings=1 overs=50 completed=14 mode=0 slot=0 cpu=1 current=2390 other=25003
+FIELD APPLIED over=15 phase=2 max=4 outside=3->3 moved_mask=000
+END innings=1 overs=50 completed=15 mode=0 slot=0 cpu=1 current=2390 other=25003
+NEXT APPLIED innings=1 overs=50 completed=15 mode=0 slot=0 cpu=1 current=25003 other=2390
+FIELD APPLIED over=16 phase=2 max=4 outside=3->3 moved_mask=000
+END innings=1 overs=50 completed=16 mode=0 slot=0 cpu=1 current=25003 other=2390
+NEXT APPLIED innings=1 overs=50 completed=16 mode=0 slot=0 cpu=1 current=2390 other=25003
+FIELD APPLIED over=17 phase=2 max=4 outside=3->3 moved_mask=000
+END innings=1 overs=50 completed=17 mode=0 slot=0 cpu=1 current=2390 other=25003
+NEXT APPLIED innings=1 overs=50 completed=17 mode=0 slot=0 cpu=1 current=29933 other=2390
+FIELD APPLIED over=18 phase=2 max=4 outside=4->4 moved_mask=000
+END innings=1 overs=50 completed=18 mode=0 slot=0 cpu=1 current=29933 other=2390
+NEXT APPLIED innings=1 overs=50 completed=18 mode=0 slot=0 cpu=1 current=2390 other=29933
+FIELD APPLIED over=19 phase=2 max=4 outside=3->3 moved_mask=000
+END innings=1 overs=50 completed=19 mode=0 slot=0 cpu=1 current=2390 other=29933
+NEXT APPLIED innings=1 overs=50 completed=19 mode=0 slot=0 cpu=1 current=29933 other=2390
+FIELD APPLIED over=20 phase=2 max=4 outside=4->4 moved_mask=000
+END innings=1 overs=50 completed=20 mode=0 slot=0 cpu=1 current=29933 other=2390
+NEXT APPLIED innings=1 overs=50 completed=20 mode=0 slot=0 cpu=1 current=4941 other=29933
+FIELD APPLIED over=21 phase=2 max=4 outside=3->3 moved_mask=000
+END innings=1 overs=50 completed=21 mode=0 slot=0 cpu=1 current=4941 other=29933
+NEXT APPLIED innings=1 overs=50 completed=21 mode=0 slot=0 cpu=1 current=2390 other=4941
+FIELD APPLIED over=22 phase=2 max=4 outside=3->3 moved_mask=000
+END innings=1 overs=50 completed=22 mode=0 slot=0 cpu=1 current=2390 other=4941
+NEXT APPLIED innings=1 overs=50 completed=22 mode=0 slot=0 cpu=1 current=4941 other=2390
+FIELD APPLIED over=23 phase=2 max=4 outside=3->3 moved_mask=000
+END innings=1 overs=50 completed=23 mode=0 slot=0 cpu=1 current=4941 other=2390
+NEXT APPLIED innings=1 overs=50 completed=23 mode=0 slot=0 cpu=1 current=2390 other=4941
+FIELD APPLIED over=24 phase=2 max=4 outside=3->3 moved_mask=000
+END innings=1 overs=50 completed=24 mode=0 slot=0 cpu=1 current=2390 other=4941
+NEXT APPLIED innings=1 overs=50 completed=24 mode=0 slot=0 cpu=1 current=29933 other=2390
+FIELD APPLIED over=25 phase=2 max=4 outside=4->4 moved_mask=000
+END innings=1 overs=50 completed=25 mode=0 slot=0 cpu=1 current=29933 other=2390
+NEXT APPLIED innings=1 overs=50 completed=25 mode=0 slot=0 cpu=1 current=25003 other=29933
+FIELD APPLIED over=26 phase=2 max=4 outside=3->3 moved_mask=000
+END innings=1 overs=50 completed=26 mode=0 slot=0 cpu=1 current=25003 other=29933
+NEXT APPLIED innings=1 overs=50 completed=26 mode=0 slot=0 cpu=1 current=29933 other=25003

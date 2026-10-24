@@ -1,0 +1,579 @@
+{
+  "target": "E:\\Cricket07\\Cricket07.exe",
+  "target_sha256": "d776dba0cc506b968f7d228e036cf42aeb4abe45a8d1ad0d7226cdebf91553a2",
+  "installed_plugin_version": "1.0",
+  "installed_plugin_sha256": "babe9e2099bd6cdadb10039d945c11e5a97d5886f15b4e18a07072589a634e74",
+  "live_snapshot": {
+    "evidence_id": "ev_f741fce5a1c57dbcf680cb94e9da76b9276aa37b2040eadb6198b9f895b1ad6d",
+    "subject": null,
+    "provider": {
+      "id": "frida",
+      "name": "Frida",
+      "version": null
+    },
+    "analysis_profile": null,
+    "predicate_type": "rea.frida.instrumentation-observation",
+    "operation": "load_frida_script",
+    "parameters": {
+      "session_id": "2ef43ade-f8ea-41ea-b293-3bc4a99aa6ee"
+    },
+    "raw_result": null,
+    "normalized_result": {
+      "script_id": "fd079726-0cce-4e56-ba5e-7eac2d801e6f",
+      "source_kind": "inline",
+      "source_path": null,
+      "source_sha256": "09cefd7c676916e92de9a0c10f246d02dbeb08875c9ee08d1e6fbe99ce20d187",
+      "messages": [
+        {
+          "script_id": "fd079726-0cce-4e56-ba5e-7eac2d801e6f",
+          "type": "send",
+          "payload": {
+            "n": 10,
+            "completed": 0,
+            "inning": 0,
+            "inningsOvers": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "mode": 0,
+            "controller": 0,
+            "slots": [
+              {
+                "slot": 0,
+                "object": "0x0",
+                "value": null
+              },
+              {
+                "slot": 0,
+                "object": "0x0",
+                "value": null
+              }
+            ],
+            "current": "0x9ae9d8",
+            "other": "0x9aee10",
+            "hooks": [
+              {
+                "va": 4649808,
+                "bytes": [
+                  233,
+                  75,
+                  33,
+                  211,
+                  108,
+                  144,
+                  102,
+                  139
+                ]
+              },
+              {
+                "va": 4660416,
+                "bytes": [
+                  233,
+                  235,
+                  255,
+                  210,
+                  108,
+                  131,
+                  190,
+                  244
+                ]
+              },
+              {
+                "va": 4779760,
+                "bytes": [
+                  233,
+                  251,
+                  46,
+                  209,
+                  108,
+                  144,
+                  144,
+                  131
+                ]
+              }
+            ],
+            "pool": [
+              {
+                "ptr": "0x9ae9d8",
+                "id": 14393,
+                "role": 1,
+                "overs": 0
+              },
+              {
+                "ptr": "0x9aee10",
+                "id": 25731,
+                "role": 2,
+                "overs": 0
+              },
+              {
+                "ptr": "0x9aeb40",
+                "id": 26061,
+                "role": 0,
+                "overs": 0
+              },
+              {
+                "ptr": "0x9aeca8",
+                "id": 3326,
+                "role": 0,
+                "overs": 0
+              },
+              {
+                "ptr": "0x9ae870",
+                "id": 194,
+                "role": 0,
+                "overs": 0
+              },
+              {
+                "ptr": "0x9ae000",
+                "id": 10706,
+                "role": 0,
+                "overs": 0
+              }
+            ]
+          }
+        }
+      ],
+      "messages_truncated": false
+    },
+    "confidence": "observed",
+    "authority": "external-service",
+    "environment": null,
+    "limitations": [
+      "Artifact identity is unavailable for this observation.",
+      "The target operating system and architecture were not reported by this observation."
+    ],
+    "relationship_coverage": null,
+    "locations": [],
+    "evidence_links": []
+  },
+  "live_trace": {
+    "evidence_id": "ev_34cb7015e4a8a8a752a8d423cc7f03408c60ade293611b7fcf8dfd938aa67f20",
+    "subject": null,
+    "provider": {
+      "id": "frida",
+      "name": "Frida",
+      "version": null
+    },
+    "analysis_profile": null,
+    "predicate_type": "rea.frida.instrumentation-observation",
+    "operation": "frida_session_status",
+    "parameters": {
+      "session_id": "2ef43ade-f8ea-41ea-b293-3bc4a99aa6ee"
+    },
+    "raw_result": null,
+    "normalized_result": {
+      "session_id": "2ef43ade-f8ea-41ea-b293-3bc4a99aa6ee",
+      "device_id": "local",
+      "state": "detached",
+      "target": "Cricket07.exe (pid 45684)",
+      "pid": 45684,
+      "mode": "attach",
+      "scripts": [
+        {
+          "script_id": "1ce784cc-eb12-4c9b-89a4-190cb8dac7b0",
+          "name": "rea-1ce784cc-eb12-4c9b-89a4-190cb8dac7b0"
+        },
+        {
+          "script_id": "f09e1595-82a9-4fdc-8539-f8b770ae99bd",
+          "name": "rea-f09e1595-82a9-4fdc-8539-f8b770ae99bd"
+        },
+        {
+          "script_id": "f6345028-cf82-4218-a01b-ea3a605a43a1",
+          "name": "rea-f6345028-cf82-4218-a01b-ea3a605a43a1"
+        },
+        {
+          "script_id": "fd079726-0cce-4e56-ba5e-7eac2d801e6f",
+          "name": "rea-fd079726-0cce-4e56-ba5e-7eac2d801e6f"
+        },
+        {
+          "script_id": "c2f6ce67-a294-4ee6-82dc-16208abb8fcc",
+          "name": "rea-c2f6ce67-a294-4ee6-82dc-16208abb8fcc"
+        }
+      ],
+      "messages": [
+        {
+          "script_id": "1ce784cc-eb12-4c9b-89a4-190cb8dac7b0",
+          "type": "send",
+          "payload": {
+            "n": 0,
+            "completed": 0,
+            "inning": 0,
+            "inningsOvers": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "mode": 0,
+            "controller": 0,
+            "slots": [],
+            "current": "0x0",
+            "other": "0x0",
+            "hooks": [
+              {
+                "va": 4649808,
+                "bytes": [
+                  233,
+                  75,
+                  33,
+                  211,
+                  108,
+                  144,
+                  102,
+                  139
+                ]
+              },
+              {
+                "va": 4660416,
+                "bytes": [
+                  233,
+                  235,
+                  255,
+                  210,
+                  108,
+                  131,
+                  190,
+                  244
+                ]
+              },
+              {
+                "va": 4779760,
+                "bytes": [
+                  233,
+                  251,
+                  46,
+                  209,
+                  108,
+                  144,
+                  144,
+                  131
+                ]
+              }
+            ],
+            "pool": [
+              null,
+              null,
+              null,
+              null,
+              null,
+              null
+            ]
+          }
+        },
+        {
+          "script_id": "f09e1595-82a9-4fdc-8539-f8b770ae99bd",
+          "type": "send",
+          "payload": {
+            "watch": "ready"
+          }
+        },
+        {
+          "script_id": "f09e1595-82a9-4fdc-8539-f8b770ae99bd",
+          "type": "send",
+          "payload": {
+            "event": "state",
+            "state": {
+              "ptr": "0x9a48b0",
+              "n": 10,
+              "completed": 0,
+              "inning": 0,
+              "mode": 0,
+              "slot": 0,
+              "current": "0x9ae9d8",
+              "other": "0x9aee10"
+            }
+          }
+        },
+        {
+          "script_id": "f6345028-cf82-4218-a01b-ea3a605a43a1",
+          "type": "send",
+          "payload": {
+            "error": "Error: can't decode byte 0x00 in position 9"
+          }
+        },
+        {
+          "script_id": "fd079726-0cce-4e56-ba5e-7eac2d801e6f",
+          "type": "send",
+          "payload": {
+            "n": 10,
+            "completed": 0,
+            "inning": 0,
+            "inningsOvers": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "mode": 0,
+            "controller": 0,
+            "slots": [
+              {
+                "slot": 0,
+                "object": "0x0",
+                "value": null
+              },
+              {
+                "slot": 0,
+                "object": "0x0",
+                "value": null
+              }
+            ],
+            "current": "0x9ae9d8",
+            "other": "0x9aee10",
+            "hooks": [
+              {
+                "va": 4649808,
+                "bytes": [
+                  233,
+                  75,
+                  33,
+                  211,
+                  108,
+                  144,
+                  102,
+                  139
+                ]
+              },
+              {
+                "va": 4660416,
+                "bytes": [
+                  233,
+                  235,
+                  255,
+                  210,
+                  108,
+                  131,
+                  190,
+                  244
+                ]
+              },
+              {
+                "va": 4779760,
+                "bytes": [
+                  233,
+                  251,
+                  46,
+                  209,
+                  108,
+                  144,
+                  144,
+                  131
+                ]
+              }
+            ],
+            "pool": [
+              {
+                "ptr": "0x9ae9d8",
+                "id": 14393,
+                "role": 1,
+                "overs": 0
+              },
+              {
+                "ptr": "0x9aee10",
+                "id": 25731,
+                "role": 2,
+                "overs": 0
+              },
+              {
+                "ptr": "0x9aeb40",
+                "id": 26061,
+                "role": 0,
+                "overs": 0
+              },
+              {
+                "ptr": "0x9aeca8",
+                "id": 3326,
+                "role": 0,
+                "overs": 0
+              },
+              {
+                "ptr": "0x9ae870",
+                "id": 194,
+                "role": 0,
+                "overs": 0
+              },
+              {
+                "ptr": "0x9ae000",
+                "id": 10706,
+                "role": 0,
+                "overs": 0
+              }
+            ]
+          }
+        },
+        {
+          "script_id": "f09e1595-82a9-4fdc-8539-f8b770ae99bd",
+          "type": "send",
+          "payload": {
+            "event": "state",
+            "state": {
+              "ptr": "0x9a48b0",
+              "n": 10,
+              "completed": 0,
+              "inning": 0,
+              "mode": 2,
+              "slot": 0,
+              "current": "0x9ae9d8",
+              "other": "0x9aee10"
+            }
+          }
+        },
+        {
+          "script_id": "f09e1595-82a9-4fdc-8539-f8b770ae99bd",
+          "type": "send",
+          "payload": {
+            "event": "enter",
+            "va": 4660416,
+            "state": {
+              "ptr": "0x9a48b0",
+              "n": 10,
+              "completed": 1,
+              "inning": 0,
+              "mode": 0,
+              "slot": 0,
+              "current": "0x9ae9d8",
+              "other": "0x9aee10"
+            }
+          }
+        },
+        {
+          "script_id": "f09e1595-82a9-4fdc-8539-f8b770ae99bd",
+          "type": "send",
+          "payload": {
+            "event": "leave",
+            "va": 4660416,
+            "state": {
+              "ptr": "0x9a48b0",
+              "n": 10,
+              "completed": 1,
+              "inning": 0,
+              "mode": 0,
+              "slot": 0,
+              "current": "0x9aee10",
+              "other": "0x9ae9d8"
+            }
+          }
+        },
+        {
+          "script_id": "f09e1595-82a9-4fdc-8539-f8b770ae99bd",
+          "type": "send",
+          "payload": {
+            "event": "state",
+            "state": {
+              "ptr": "0x9a48b0",
+              "n": 10,
+              "completed": 1,
+              "inning": 0,
+              "mode": 0,
+              "slot": 0,
+              "current": "0x9aee10",
+              "other": "0x9ae9d8"
+            }
+          }
+        },
+        {
+          "script_id": "f09e1595-82a9-4fdc-8539-f8b770ae99bd",
+          "type": "send",
+          "payload": {
+            "event": "state",
+            "state": {
+              "ptr": "0x9a48b0",
+              "n": 10,
+              "completed": 1,
+              "inning": 0,
+              "mode": 2,
+              "slot": 0,
+              "current": "0x9aee10",
+              "other": "0x9ae9d8"
+            }
+          }
+        },
+        {
+          "script_id": "f09e1595-82a9-4fdc-8539-f8b770ae99bd",
+          "type": "send",
+          "payload": {
+            "event": "enter",
+            "va": 4660416,
+            "state": {
+              "ptr": "0x9a48b0",
+              "n": 10,
+              "completed": 2,
+              "inning": 0,
+              "mode": 0,
+              "slot": 0,
+              "current": "0x9aee10",
+              "other": "0x9ae9d8"
+            }
+          }
+        },
+        {
+          "script_id": "f09e1595-82a9-4fdc-8539-f8b770ae99bd",
+          "type": "send",
+          "payload": {
+            "event": "leave",
+            "va": 4660416,
+            "state": {
+              "ptr": "0x9a48b0",
+              "n": 10,
+              "completed": 2,
+              "inning": 0,
+              "mode": 0,
+              "slot": 0,
+              "current": "0x9ae9d8",
+              "other": "0x9aee10"
+            }
+          }
+        },
+        {
+          "script_id": "f09e1595-82a9-4fdc-8539-f8b770ae99bd",
+          "type": "send",
+          "payload": {
+            "event": "state",
+            "state": {
+              "ptr": "0x9a48b0",
+              "n": 10,
+              "completed": 2,
+              "inning": 0,
+              "mode": 0,
+              "slot": 0,
+              "current": "0x9ae9d8",
+              "other": "0x9aee10"
+            }
+          }
+        },
+        {
+          "script_id": "c2f6ce67-a294-4ee6-82dc-16208abb8fcc",
+          "type": "send",
+          "payload": {
+            "home": 39,
+            "away": 30,
+            "bowling": 39,
+            "assignment": [
+              -1,
+              -1,
+              1,
+              -1
+            ],
+            "counts": [
+              1,
+              0
+            ]
+          }
+        }
+      ],
+      "messages_truncated": false
+    },
+    "confidence": "observed",
+    "authority": "external-service",
+    "environment": null,
+    "limitations": [
+      "Artifact identity is unavailable for this observation.",
+      "The target operating system and architecture were not reported by this observation."
+    ],
+    "relationship_coverage": null,
+    "locations": [],
+    "evidence_links": []
+  }
+}

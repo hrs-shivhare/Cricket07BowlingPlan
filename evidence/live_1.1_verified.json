@@ -1,0 +1,425 @@
+{
+  "target": "E:\\Cricket07\\Cricket07.exe",
+  "target_sha256": "d776dba0cc506b968f7d228e036cf42aeb4abe45a8d1ad0d7226cdebf91553a2",
+  "installed_plugin_version": "1.1",
+  "installed_plugin_sha256": "4d690393e089868602ea6779306abcd26dc9fd27d8c76fe41f0683f22ddc93c4",
+  "scope": "Opening and first three end-of-over changes in a live ten-over match; correct current bowlers for overs 1-4",
+  "runtime": {
+    "evidence_id": "ev_2c8e8be469965cfc59c5a233aab4fa39076ed3be2ddb28450289e572f3357fcc",
+    "subject": null,
+    "provider": {
+      "id": "frida",
+      "name": "Frida",
+      "version": null
+    },
+    "analysis_profile": null,
+    "predicate_type": "rea.frida.instrumentation-observation",
+    "operation": "frida_session_status",
+    "parameters": {
+      "session_id": "89280f5b-87a2-444c-80f0-dfce6ef01fbb"
+    },
+    "raw_result": null,
+    "normalized_result": {
+      "session_id": "89280f5b-87a2-444c-80f0-dfce6ef01fbb",
+      "device_id": "local",
+      "state": "running",
+      "target": "Cricket07.exe (pid 35028)",
+      "pid": 35028,
+      "mode": "attach",
+      "scripts": [
+        {
+          "script_id": "a76a74c3-3c4f-4dae-a09a-22d902e1419d",
+          "name": "rea-a76a74c3-3c4f-4dae-a09a-22d902e1419d"
+        }
+      ],
+      "messages": [
+        {
+          "script_id": "a76a74c3-3c4f-4dae-a09a-22d902e1419d",
+          "type": "send",
+          "payload": {
+            "watch": "1.1 passive state monitor ready"
+          }
+        },
+        {
+          "script_id": "a76a74c3-3c4f-4dae-a09a-22d902e1419d",
+          "type": "send",
+          "payload": {
+            "n": 10,
+            "inning": 0,
+            "completed": 0,
+            "inningCompleted": 0,
+            "mode": 0,
+            "slot": 0,
+            "current": 3892,
+            "other": 3860,
+            "pool": [
+              {
+                "id": 3892,
+                "overs": 0,
+                "role": 1
+              },
+              {
+                "id": 3860,
+                "overs": 0,
+                "role": 2
+              },
+              {
+                "id": 25679,
+                "overs": 0,
+                "role": 0
+              },
+              {
+                "id": 20526,
+                "overs": 0,
+                "role": 0
+              },
+              {
+                "id": 7822,
+                "overs": 0,
+                "role": 0
+              },
+              {
+                "id": 24796,
+                "overs": 0,
+                "role": 0
+              }
+            ]
+          }
+        },
+        {
+          "script_id": "a76a74c3-3c4f-4dae-a09a-22d902e1419d",
+          "type": "send",
+          "payload": {
+            "n": 10,
+            "inning": 0,
+            "completed": 0,
+            "inningCompleted": 0,
+            "mode": 2,
+            "slot": 0,
+            "current": 3892,
+            "other": 3860,
+            "pool": [
+              {
+                "id": 3892,
+                "overs": 0,
+                "role": 1
+              },
+              {
+                "id": 3860,
+                "overs": 0,
+                "role": 2
+              },
+              {
+                "id": 25679,
+                "overs": 0,
+                "role": 0
+              },
+              {
+                "id": 20526,
+                "overs": 0,
+                "role": 0
+              },
+              {
+                "id": 7822,
+                "overs": 0,
+                "role": 0
+              },
+              {
+                "id": 24796,
+                "overs": 0,
+                "role": 0
+              }
+            ]
+          }
+        },
+        {
+          "script_id": "a76a74c3-3c4f-4dae-a09a-22d902e1419d",
+          "type": "send",
+          "payload": {
+            "n": 10,
+            "inning": 0,
+            "completed": 1,
+            "inningCompleted": 1,
+            "mode": 0,
+            "slot": 0,
+            "current": 3860,
+            "other": 3892,
+            "pool": [
+              {
+                "id": 3892,
+                "overs": 1,
+                "role": 2
+              },
+              {
+                "id": 3860,
+                "overs": 0,
+                "role": 1
+              },
+              {
+                "id": 25679,
+                "overs": 0,
+                "role": 0
+              },
+              {
+                "id": 20526,
+                "overs": 0,
+                "role": 0
+              },
+              {
+                "id": 7822,
+                "overs": 0,
+                "role": 0
+              },
+              {
+                "id": 24796,
+                "overs": 0,
+                "role": 0
+              }
+            ]
+          }
+        },
+        {
+          "script_id": "a76a74c3-3c4f-4dae-a09a-22d902e1419d",
+          "type": "send",
+          "payload": {
+            "n": 10,
+            "inning": 0,
+            "completed": 1,
+            "inningCompleted": 1,
+            "mode": 2,
+            "slot": 0,
+            "current": 3860,
+            "other": 3892,
+            "pool": [
+              {
+                "id": 3892,
+                "overs": 1,
+                "role": 2
+              },
+              {
+                "id": 3860,
+                "overs": 0,
+                "role": 1
+              },
+              {
+                "id": 25679,
+                "overs": 0,
+                "role": 0
+              },
+              {
+                "id": 20526,
+                "overs": 0,
+                "role": 0
+              },
+              {
+                "id": 7822,
+                "overs": 0,
+                "role": 0
+              },
+              {
+                "id": 24796,
+                "overs": 0,
+                "role": 0
+              }
+            ]
+          }
+        },
+        {
+          "script_id": "a76a74c3-3c4f-4dae-a09a-22d902e1419d",
+          "type": "send",
+          "payload": {
+            "n": 10,
+            "inning": 0,
+            "completed": 2,
+            "inningCompleted": 2,
+            "mode": 0,
+            "slot": 0,
+            "current": 25679,
+            "other": 3860,
+            "pool": [
+              {
+                "id": 3892,
+                "overs": 1,
+                "role": 0
+              },
+              {
+                "id": 3860,
+                "overs": 1,
+                "role": 2
+              },
+              {
+                "id": 25679,
+                "overs": 0,
+                "role": 1
+              },
+              {
+                "id": 20526,
+                "overs": 0,
+                "role": 0
+              },
+              {
+                "id": 7822,
+                "overs": 0,
+                "role": 0
+              },
+              {
+                "id": 24796,
+                "overs": 0,
+                "role": 0
+              }
+            ]
+          }
+        },
+        {
+          "script_id": "a76a74c3-3c4f-4dae-a09a-22d902e1419d",
+          "type": "send",
+          "payload": {
+            "n": 10,
+            "inning": 0,
+            "completed": 2,
+            "inningCompleted": 2,
+            "mode": 2,
+            "slot": 0,
+            "current": 25679,
+            "other": 3860,
+            "pool": [
+              {
+                "id": 3892,
+                "overs": 1,
+                "role": 0
+              },
+              {
+                "id": 3860,
+                "overs": 1,
+                "role": 2
+              },
+              {
+                "id": 25679,
+                "overs": 0,
+                "role": 1
+              },
+              {
+                "id": 20526,
+                "overs": 0,
+                "role": 0
+              },
+              {
+                "id": 7822,
+                "overs": 0,
+                "role": 0
+              },
+              {
+                "id": 24796,
+                "overs": 0,
+                "role": 0
+              }
+            ]
+          }
+        },
+        {
+          "script_id": "a76a74c3-3c4f-4dae-a09a-22d902e1419d",
+          "type": "send",
+          "payload": {
+            "n": 10,
+            "inning": 0,
+            "completed": 3,
+            "inningCompleted": 3,
+            "mode": 0,
+            "slot": 0,
+            "current": 20526,
+            "other": 25679,
+            "pool": [
+              {
+                "id": 3892,
+                "overs": 1,
+                "role": 0
+              },
+              {
+                "id": 3860,
+                "overs": 1,
+                "role": 0
+              },
+              {
+                "id": 25679,
+                "overs": 1,
+                "role": 2
+              },
+              {
+                "id": 20526,
+                "overs": 0,
+                "role": 1
+              },
+              {
+                "id": 7822,
+                "overs": 0,
+                "role": 0
+              },
+              {
+                "id": 24796,
+                "overs": 0,
+                "role": 0
+              }
+            ]
+          }
+        },
+        {
+          "script_id": "a76a74c3-3c4f-4dae-a09a-22d902e1419d",
+          "type": "send",
+          "payload": {
+            "n": 10,
+            "inning": 0,
+            "completed": 3,
+            "inningCompleted": 3,
+            "mode": 2,
+            "slot": 0,
+            "current": 20526,
+            "other": 25679,
+            "pool": [
+              {
+                "id": 3892,
+                "overs": 1,
+                "role": 0
+              },
+              {
+                "id": 3860,
+                "overs": 1,
+                "role": 0
+              },
+              {
+                "id": 25679,
+                "overs": 1,
+                "role": 2
+              },
+              {
+                "id": 20526,
+                "overs": 0,
+                "role": 1
+              },
+              {
+                "id": 7822,
+                "overs": 0,
+                "role": 0
+              },
+              {
+                "id": 24796,
+                "overs": 0,
+                "role": 0
+              }
+            ]
+          }
+        }
+      ],
+      "messages_truncated": false
+    },
+    "confidence": "observed",
+    "authority": "external-service",
+    "environment": null,
+    "limitations": [
+      "Artifact identity is unavailable for this observation.",
+      "The target operating system and architecture were not reported by this observation."
+    ],
+    "relationship_coverage": null,
+    "locations": [],
+    "evidence_links": []
+  }
+}

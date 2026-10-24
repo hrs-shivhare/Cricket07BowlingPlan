@@ -1,0 +1,32 @@
+Cricket07BowlingPlan 1.0 initializing (T10 powerplay B1 B2 B3).
+APPLIED: opening 46F350, end-over 471CC0, restriction-length 48EEF0.
+Cricket07BowlingPlan 1.0 initializing (T10 powerplay B1 B2 B3).
+APPLIED: opening 46F350, end-over 471CC0, restriction-length 48EEF0.
+Cricket07BowlingPlan 1.1 initializing (CPU actor/assignment detection fixed; T10 B1 B2 B3).
+APPLIED: opening 46F350, end-over 471CC0, restriction-length 48EEF0.
+OPEN innings=1 overs=10 completed=0 mode=0 slot=0 cpu=1 current=3892 other=3860
+PLAN innings=1 team=7 overs=10 resume=0: 1:B1 2:B2 3:B3 4:B5 5:B4 6:B3 7:B5 8:B6 9:B2 10:B1
+B1 = player 3892 (S.Harmison)
+B2 = player 3860 (M.Hoggard)
+B3 = player 25679 (A.Flintoff)
+B4 = player 20526 (A.Giles)
+B5 = player 7822 (P.Collingwood)
+B6 = player 24796 (M.Vaughan)
+OPEN APPLIED innings=1 overs=10 completed=0 mode=0 slot=0 cpu=1 current=3892 other=3860
+OPEN innings=1 overs=10 completed=0 mode=0 slot=0 cpu=1 current=3892 other=3860
+PLAN innings=1 team=7 overs=10 resume=0: 1:B1 2:B2 3:B3 4:B4 5:B5 6:B6 7:B3 8:B4 9:B2 10:B1
+B1 = player 3892 (S.Harmison)
+B2 = player 3860 (M.Hoggard)
+B3 = player 25679 (A.Flintoff)
+B4 = player 20526 (A.Giles)
+B5 = player 7822 (P.Collingwood)
+B6 = player 24796 (M.Vaughan)
+OPEN APPLIED innings=1 overs=10 completed=0 mode=0 slot=0 cpu=1 current=3892 other=3860
+END innings=1 overs=10 completed=1 mode=0 slot=0 cpu=1 current=3892 other=3860
+NEXT APPLIED innings=1 overs=10 completed=1 mode=0 slot=0 cpu=1 current=3860 other=3892
+END innings=1 overs=10 completed=2 mode=0 slot=0 cpu=1 current=3860 other=3892
+NEXT APPLIED innings=1 overs=10 completed=2 mode=0 slot=0 cpu=1 current=25679 other=3860
+END innings=1 overs=10 completed=3 mode=0 slot=0 cpu=1 current=25679 other=3860
+NEXT APPLIED innings=1 overs=10 completed=3 mode=0 slot=0 cpu=1 current=20526 other=25679
+END innings=1 overs=10 completed=4 mode=0 slot=0 cpu=1 current=20526 other=25679
+NEXT APPLIED innings=1 overs=10 completed=4 mode=0 slot=0 cpu=1 current=7822 other=20526

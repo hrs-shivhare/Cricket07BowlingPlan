@@ -1,0 +1,1622 @@
+{
+  "target": "E:\\Cricket07\\Cricket07.exe",
+  "target_sha256": "d776dba0cc506b968f7d228e036cf42aeb4abe45a8d1ad0d7226cdebf91553a2",
+  "plugin_version": "2.0",
+  "plugin_sha256": "4e7198a61afdc58e71aa5af4b35e5ef244a789519a8aed4c547175f049fa09ee",
+  "geometry_scope": "Outside classification is the new plugin's 30-yard oval policy, not a recovered native world-distance validator.",
+  "observer_notes": "Initial observer used a stack argument for the x86 thiscall self register and produced caught read errors. It was corrected to ECX. The final observer also reads the actual applied preset at 5B1960 instead of a later unused selector return. No observer writes bowler or fielder values; position getter calls are read-only. Provider raw observations retain those setup errors for transparency.",
+  "runtime": {
+    "evidence_id": "ev_ae44b69149f9732f1b3c033a752435e304f959e7b53e6437721d30b5da48c07a",
+    "subject": null,
+    "provider": {
+      "id": "frida",
+      "name": "Frida",
+      "version": null
+    },
+    "analysis_profile": null,
+    "predicate_type": "rea.frida.instrumentation-observation",
+    "operation": "frida_session_status",
+    "parameters": {
+      "session_id": "bdfe0a61-1ec0-45e0-ba7c-6e32409b7804"
+    },
+    "raw_result": null,
+    "normalized_result": {
+      "session_id": "bdfe0a61-1ec0-45e0-ba7c-6e32409b7804",
+      "device_id": "local",
+      "state": "running",
+      "target": "Cricket07.exe (pid 27312)",
+      "pid": 27312,
+      "mode": "attach",
+      "scripts": [
+        {
+          "script_id": "33ae20c9-5468-4973-b1fd-0d827718d972",
+          "name": "rea-33ae20c9-5468-4973-b1fd-0d827718d972"
+        },
+        {
+          "script_id": "43e40e80-5510-4aee-aab7-eb2b6851203c",
+          "name": "rea-43e40e80-5510-4aee-aab7-eb2b6851203c"
+        }
+      ],
+      "messages": [
+        {
+          "script_id": "f90f1389-a783-4848-8ada-4a49f37c010a",
+          "type": "send",
+          "payload": {
+            "watch": "2.0 final field placement + selected preset"
+          }
+        },
+        {
+          "script_id": "33ae20c9-5468-4973-b1fd-0d827718d972",
+          "type": "send",
+          "payload": {
+            "current_scheduled_overs": 10,
+            "completed": 0,
+            "inning": 0,
+            "mode": 0
+          }
+        },
+        {
+          "script_id": "f90f1389-a783-4848-8ada-4a49f37c010a",
+          "type": "send",
+          "payload": {
+            "error": "Error: access violation accessing 0x17"
+          }
+        },
+        {
+          "script_id": "f90f1389-a783-4848-8ada-4a49f37c010a",
+          "type": "send",
+          "payload": {
+            "error": "Error: access violation accessing 0x17"
+          }
+        },
+        {
+          "script_id": "f90f1389-a783-4848-8ada-4a49f37c010a",
+          "type": "send",
+          "payload": {
+            "error": "Error: access violation accessing 0x17"
+          }
+        },
+        {
+          "script_id": "f90f1389-a783-4848-8ada-4a49f37c010a",
+          "type": "send",
+          "payload": {
+            "error": "Error: access violation accessing 0x17"
+          }
+        },
+        {
+          "script_id": "f90f1389-a783-4848-8ada-4a49f37c010a",
+          "type": "send",
+          "payload": {
+            "error": "Error: access violation accessing 0x17"
+          }
+        },
+        {
+          "script_id": "e02798e2-c4d0-45d8-9c55-a0e1a2750b71",
+          "type": "send",
+          "payload": {
+            "watch": "2.0 final field placement + selected preset"
+          }
+        },
+        {
+          "script_id": "e02798e2-c4d0-45d8-9c55-a0e1a2750b71",
+          "type": "send",
+          "payload": {
+            "event": "field_after_plugin",
+            "n": 50,
+            "inning": 0,
+            "completed": 7,
+            "over": 8,
+            "preset": 55,
+            "outside": 2,
+            "current": 4941,
+            "points": [
+              {
+                "index": 1,
+                "x": -20.270263671875,
+                "y": 0,
+                "z": 2.9279279708862305,
+                "outside": false
+              },
+              {
+                "index": 2,
+                "x": -20.090045928955078,
+                "y": 0,
+                "z": -8.918919563293457,
+                "outside": false
+              },
+              {
+                "index": 3,
+                "x": -8.017991065979004,
+                "y": 0,
+                "z": 17.342334747314453,
+                "outside": false
+              },
+              {
+                "index": 4,
+                "x": 7.927928447723389,
+                "y": 0,
+                "z": 17.56755828857422,
+                "outside": false
+              },
+              {
+                "index": 5,
+                "x": 19.90990447998047,
+                "y": 0,
+                "z": 0.09009008854627609,
+                "outside": false
+              },
+              {
+                "index": 6,
+                "x": 19.90990447998047,
+                "y": 0,
+                "z": -10.3603515625,
+                "outside": false
+              },
+              {
+                "index": 7,
+                "x": 54.594329833984375,
+                "y": 0,
+                "z": -33.33322525024414,
+                "outside": true
+              },
+              {
+                "index": 8,
+                "x": -58.5583381652832,
+                "y": 0,
+                "z": 25.225200653076172,
+                "outside": true
+              },
+              {
+                "index": 9,
+                "x": -2.5225226879119873,
+                "y": 0,
+                "z": -21.80167579650879,
+                "outside": false
+              }
+            ]
+          }
+        },
+        {
+          "script_id": "e02798e2-c4d0-45d8-9c55-a0e1a2750b71",
+          "type": "send",
+          "payload": {
+            "event": "field_after_plugin",
+            "n": 50,
+            "inning": 0,
+            "completed": 8,
+            "over": 9,
+            "preset": 55,
+            "outside": 2,
+            "current": 25003,
+            "points": [
+              {
+                "index": 1,
+                "x": 20.270263671875,
+                "y": 0,
+                "z": -2.9279279708862305,
+                "outside": false
+              },
+              {
+                "index": 2,
+                "x": 20.090045928955078,
+                "y": 0,
+                "z": 8.918919563293457,
+                "outside": false
+              },
+              {
+                "index": 3,
+                "x": 8.017991065979004,
+                "y": 0,
+                "z": -17.342334747314453,
+                "outside": false
+              },
+              {
+                "index": 4,
+                "x": -7.927928447723389,
+                "y": 0,
+                "z": -17.56755828857422,
+                "outside": false
+              },
+              {
+                "index": 5,
+                "x": -19.90990447998047,
+                "y": 0,
+                "z": -0.09009008854627609,
+                "outside": false
+              },
+              {
+                "index": 6,
+                "x": -19.90990447998047,
+                "y": 0,
+                "z": 10.3603515625,
+                "outside": false
+              },
+              {
+                "index": 7,
+                "x": -54.594329833984375,
+                "y": 0,
+                "z": 33.33322525024414,
+                "outside": true
+              },
+              {
+                "index": 8,
+                "x": 58.5583381652832,
+                "y": 0,
+                "z": -25.225200653076172,
+                "outside": true
+              },
+              {
+                "index": 9,
+                "x": 2.5225226879119873,
+                "y": 0,
+                "z": 21.80167579650879,
+                "outside": false
+              }
+            ]
+          }
+        },
+        {
+          "script_id": "e02798e2-c4d0-45d8-9c55-a0e1a2750b71",
+          "type": "send",
+          "payload": {
+            "event": "field_after_plugin",
+            "n": 50,
+            "inning": 0,
+            "completed": 9,
+            "over": 10,
+            "preset": 20,
+            "outside": 2,
+            "current": 29933,
+            "points": [
+              {
+                "index": 1,
+                "x": -17.11684799194336,
+                "y": 0,
+                "z": -19.504758834838867,
+                "outside": false
+              },
+              {
+                "index": 2,
+                "x": -20.0001163482666,
+                "y": 0,
+                "z": -8.963981628417969,
+                "outside": false
+              },
+              {
+                "index": 3,
+                "x": -50.27022933959961,
+                "y": 0,
+                "z": 40.31516647338867,
+                "outside": true
+              },
+              {
+                "index": 4,
+                "x": -20.09098243713379,
+                "y": 0,
+                "z": 2.027027130126953,
+                "outside": false
+              },
+              {
+                "index": 5,
+                "x": -9.414523124694824,
+                "y": 0,
+                "z": 17.072046279907227,
+                "outside": false
+              },
+              {
+                "index": 6,
+                "x": 9.909793853759766,
+                "y": 0,
+                "z": 17.072046279907227,
+                "outside": false
+              },
+              {
+                "index": 7,
+                "x": 20.181072235107422,
+                "y": 0,
+                "z": 1.8468470573425293,
+                "outside": false
+              },
+              {
+                "index": 8,
+                "x": 61.53141403198242,
+                "y": 0,
+                "z": -8.60360336303711,
+                "outside": true
+              },
+              {
+                "index": 9,
+                "x": 16.261260986328125,
+                "y": 0,
+                "z": -19.504758834838867,
+                "outside": false
+              }
+            ]
+          }
+        },
+        {
+          "script_id": "43e40e80-5510-4aee-aab7-eb2b6851203c",
+          "type": "send",
+          "payload": {
+            "watch": "2.0 final field placement + selected preset"
+          }
+        },
+        {
+          "script_id": "43e40e80-5510-4aee-aab7-eb2b6851203c",
+          "type": "send",
+          "payload": {
+            "event": "field_after_plugin",
+            "n": 50,
+            "inning": 0,
+            "completed": 10,
+            "over": 11,
+            "preset": 46,
+            "outside": 3,
+            "current": 25003,
+            "points": [
+              {
+                "index": 1,
+                "x": 19.549650192260742,
+                "y": 0,
+                "z": 10.360379219055176,
+                "outside": false
+              },
+              {
+                "index": 2,
+                "x": 63.288021087646484,
+                "y": 0,
+                "z": 4.189180374145508,
+                "outside": true
+              },
+              {
+                "index": 3,
+                "x": 6.756613254547119,
+                "y": 0,
+                "z": -63.33320999145508,
+                "outside": true
+              },
+              {
+                "index": 4,
+                "x": -58.7835807800293,
+                "y": 0,
+                "z": 24.639568328857422,
+                "outside": true
+              },
+              {
+                "index": 5,
+                "x": 19.730623245239258,
+                "y": 0,
+                "z": -5.630630970001221,
+                "outside": false
+              },
+              {
+                "index": 6,
+                "x": 7.612720966339111,
+                "y": 0,
+                "z": -19.279253005981445,
+                "outside": false
+              },
+              {
+                "index": 7,
+                "x": -7.657540798187256,
+                "y": 0,
+                "z": -20.810802459716797,
+                "outside": false
+              },
+              {
+                "index": 8,
+                "x": -20.09098243713379,
+                "y": 0,
+                "z": -6.3063063621521,
+                "outside": false
+              },
+              {
+                "index": 9,
+                "x": -19.864830017089844,
+                "y": 0,
+                "z": 8.378378868103027,
+                "outside": false
+              }
+            ]
+          }
+        },
+        {
+          "script_id": "43e40e80-5510-4aee-aab7-eb2b6851203c",
+          "type": "send",
+          "payload": {
+            "event": "field_after_plugin",
+            "n": 50,
+            "inning": 0,
+            "completed": 11,
+            "over": 12,
+            "preset": 10,
+            "outside": 4,
+            "current": 29933,
+            "points": [
+              {
+                "index": 1,
+                "x": -19.549650192260742,
+                "y": 0,
+                "z": -10.360379219055176,
+                "outside": false
+              },
+              {
+                "index": 2,
+                "x": -61.66664123535156,
+                "y": 0,
+                "z": 16.035991668701172,
+                "outside": true
+              },
+              {
+                "index": 3,
+                "x": -18.37837028503418,
+                "y": 0,
+                "z": 9.279279708862305,
+                "outside": false
+              },
+              {
+                "index": 4,
+                "x": -17.29726219177246,
+                "y": 0,
+                "z": 61.48632049560547,
+                "outside": true
+              },
+              {
+                "index": 5,
+                "x": 10.135136604309082,
+                "y": 0,
+                "z": 16.711414337158203,
+                "outside": false
+              },
+              {
+                "index": 6,
+                "x": 63.1978874206543,
+                "y": 0,
+                "z": 6.125829219818115,
+                "outside": true
+              },
+              {
+                "index": 7,
+                "x": 20.090084075927734,
+                "y": 0,
+                "z": -2.9279279708862305,
+                "outside": false
+              },
+              {
+                "index": 8,
+                "x": 58.7835807800293,
+                "y": 0,
+                "z": -24.639568328857422,
+                "outside": true
+              },
+              {
+                "index": 9,
+                "x": 20.045045852661133,
+                "y": 0,
+                "z": -19.504758834838867,
+                "outside": false
+              }
+            ]
+          }
+        },
+        {
+          "script_id": "43e40e80-5510-4aee-aab7-eb2b6851203c",
+          "type": "send",
+          "payload": {
+            "event": "field_after_plugin",
+            "n": 50,
+            "inning": 0,
+            "completed": 12,
+            "over": 13,
+            "preset": 45,
+            "outside": 3,
+            "current": 2390,
+            "points": [
+              {
+                "index": 1,
+                "x": 18.96381187438965,
+                "y": 0,
+                "z": 12.882810592651367,
+                "outside": false
+              },
+              {
+                "index": 2,
+                "x": 19.9097843170166,
+                "y": 0,
+                "z": 4.954955101013184,
+                "outside": false
+              },
+              {
+                "index": 3,
+                "x": 54.459449768066406,
+                "y": 0,
+                "z": -33.96388244628906,
+                "outside": true
+              },
+              {
+                "index": 4,
+                "x": -54.594329833984375,
+                "y": 0,
+                "z": 33.33322525024414,
+                "outside": true
+              },
+              {
+                "index": 5,
+                "x": 19.86496353149414,
+                "y": 0,
+                "z": -7.612576484680176,
+                "outside": false
+              },
+              {
+                "index": 6,
+                "x": 9.414523124694824,
+                "y": 0,
+                "z": -17.972946166992188,
+                "outside": false
+              },
+              {
+                "index": 7,
+                "x": -10.720711708068848,
+                "y": 0,
+                "z": -61.08092498779297,
+                "outside": true
+              },
+              {
+                "index": 8,
+                "x": -19.189180374145508,
+                "y": 0,
+                "z": -8.198198318481445,
+                "outside": false
+              },
+              {
+                "index": 9,
+                "x": -18.96392822265625,
+                "y": 0,
+                "z": 10.85584831237793,
+                "outside": false
+              }
+            ]
+          }
+        },
+        {
+          "script_id": "43e40e80-5510-4aee-aab7-eb2b6851203c",
+          "type": "send",
+          "payload": {
+            "event": "field_after_plugin",
+            "n": 50,
+            "inning": 0,
+            "completed": 13,
+            "over": 14,
+            "preset": 45,
+            "outside": 3,
+            "current": 25003,
+            "points": [
+              {
+                "index": 1,
+                "x": -18.96381187438965,
+                "y": 0,
+                "z": -12.882810592651367,
+                "outside": false
+              },
+              {
+                "index": 2,
+                "x": -19.9097843170166,
+                "y": 0,
+                "z": -4.954955101013184,
+                "outside": false
+              },
+              {
+                "index": 3,
+                "x": -54.459449768066406,
+                "y": 0,
+                "z": 33.96388244628906,
+                "outside": true
+              },
+              {
+                "index": 4,
+                "x": 54.594329833984375,
+                "y": 0,
+                "z": -33.33322525024414,
+                "outside": true
+              },
+              {
+                "index": 5,
+                "x": -19.86496353149414,
+                "y": 0,
+                "z": 7.612576484680176,
+                "outside": false
+              },
+              {
+                "index": 6,
+                "x": -9.414523124694824,
+                "y": 0,
+                "z": 17.972946166992188,
+                "outside": false
+              },
+              {
+                "index": 7,
+                "x": 10.720711708068848,
+                "y": 0,
+                "z": 61.08092498779297,
+                "outside": true
+              },
+              {
+                "index": 8,
+                "x": 19.189180374145508,
+                "y": 0,
+                "z": 8.198198318481445,
+                "outside": false
+              },
+              {
+                "index": 9,
+                "x": 18.96392822265625,
+                "y": 0,
+                "z": -10.85584831237793,
+                "outside": false
+              }
+            ]
+          }
+        },
+        {
+          "script_id": "43e40e80-5510-4aee-aab7-eb2b6851203c",
+          "type": "send",
+          "payload": {
+            "event": "field_after_plugin",
+            "n": 50,
+            "inning": 0,
+            "completed": 14,
+            "over": 15,
+            "preset": 45,
+            "outside": 3,
+            "current": 2390,
+            "points": [
+              {
+                "index": 1,
+                "x": 18.96381187438965,
+                "y": 0,
+                "z": 12.882810592651367,
+                "outside": false
+              },
+              {
+                "index": 2,
+                "x": 19.9097843170166,
+                "y": 0,
+                "z": 4.954955101013184,
+                "outside": false
+              },
+              {
+                "index": 3,
+                "x": 54.459449768066406,
+                "y": 0,
+                "z": -33.96388244628906,
+                "outside": true
+              },
+              {
+                "index": 4,
+                "x": -54.594329833984375,
+                "y": 0,
+                "z": 33.33322525024414,
+                "outside": true
+              },
+              {
+                "index": 5,
+                "x": 19.86496353149414,
+                "y": 0,
+                "z": -7.612576484680176,
+                "outside": false
+              },
+              {
+                "index": 6,
+                "x": 9.414523124694824,
+                "y": 0,
+                "z": -17.972946166992188,
+                "outside": false
+              },
+              {
+                "index": 7,
+                "x": -10.720711708068848,
+                "y": 0,
+                "z": -61.08092498779297,
+                "outside": true
+              },
+              {
+                "index": 8,
+                "x": -19.189180374145508,
+                "y": 0,
+                "z": -8.198198318481445,
+                "outside": false
+              },
+              {
+                "index": 9,
+                "x": -18.96392822265625,
+                "y": 0,
+                "z": 10.85584831237793,
+                "outside": false
+              }
+            ]
+          }
+        },
+        {
+          "script_id": "43e40e80-5510-4aee-aab7-eb2b6851203c",
+          "type": "send",
+          "payload": {
+            "event": "field_after_plugin",
+            "n": 50,
+            "inning": 0,
+            "completed": 15,
+            "over": 16,
+            "preset": 45,
+            "outside": 3,
+            "current": 25003,
+            "points": [
+              {
+                "index": 1,
+                "x": -18.96381187438965,
+                "y": 0,
+                "z": -12.882810592651367,
+                "outside": false
+              },
+              {
+                "index": 2,
+                "x": -19.9097843170166,
+                "y": 0,
+                "z": -4.954955101013184,
+                "outside": false
+              },
+              {
+                "index": 3,
+                "x": -54.459449768066406,
+                "y": 0,
+                "z": 33.96388244628906,
+                "outside": true
+              },
+              {
+                "index": 4,
+                "x": 54.594329833984375,
+                "y": 0,
+                "z": -33.33322525024414,
+                "outside": true
+              },
+              {
+                "index": 5,
+                "x": -19.86496353149414,
+                "y": 0,
+                "z": 7.612576484680176,
+                "outside": false
+              },
+              {
+                "index": 6,
+                "x": -9.414523124694824,
+                "y": 0,
+                "z": 17.972946166992188,
+                "outside": false
+              },
+              {
+                "index": 7,
+                "x": 10.720711708068848,
+                "y": 0,
+                "z": 61.08092498779297,
+                "outside": true
+              },
+              {
+                "index": 8,
+                "x": 19.189180374145508,
+                "y": 0,
+                "z": 8.198198318481445,
+                "outside": false
+              },
+              {
+                "index": 9,
+                "x": 18.96392822265625,
+                "y": 0,
+                "z": -10.85584831237793,
+                "outside": false
+              }
+            ]
+          }
+        },
+        {
+          "script_id": "43e40e80-5510-4aee-aab7-eb2b6851203c",
+          "type": "send",
+          "payload": {
+            "event": "field_after_plugin",
+            "n": 50,
+            "inning": 0,
+            "completed": 16,
+            "over": 17,
+            "preset": 45,
+            "outside": 3,
+            "current": 2390,
+            "points": [
+              {
+                "index": 1,
+                "x": 18.96381187438965,
+                "y": 0,
+                "z": 12.882810592651367,
+                "outside": false
+              },
+              {
+                "index": 2,
+                "x": 19.9097843170166,
+                "y": 0,
+                "z": 4.954955101013184,
+                "outside": false
+              },
+              {
+                "index": 3,
+                "x": 50,
+                "y": 0,
+                "z": 0,
+                "outside": true
+              },
+              {
+                "index": 4,
+                "x": -54.594329833984375,
+                "y": 0,
+                "z": 33.33322525024414,
+                "outside": true
+              },
+              {
+                "index": 5,
+                "x": 19.86496353149414,
+                "y": 0,
+                "z": -7.612576484680176,
+                "outside": false
+              },
+              {
+                "index": 6,
+                "x": 9.414523124694824,
+                "y": 0,
+                "z": -17.972946166992188,
+                "outside": false
+              },
+              {
+                "index": 7,
+                "x": -10.720711708068848,
+                "y": 0,
+                "z": -61.08092498779297,
+                "outside": true
+              },
+              {
+                "index": 8,
+                "x": -19.189180374145508,
+                "y": 0,
+                "z": -8.198198318481445,
+                "outside": false
+              },
+              {
+                "index": 9,
+                "x": -18.96392822265625,
+                "y": 0,
+                "z": 10.85584831237793,
+                "outside": false
+              }
+            ]
+          }
+        },
+        {
+          "script_id": "43e40e80-5510-4aee-aab7-eb2b6851203c",
+          "type": "send",
+          "payload": {
+            "event": "field_after_plugin",
+            "n": 50,
+            "inning": 0,
+            "completed": 17,
+            "over": 18,
+            "preset": 11,
+            "outside": 4,
+            "current": 29933,
+            "points": [
+              {
+                "index": 1,
+                "x": -58.69383239746094,
+                "y": 0,
+                "z": -24.594860076904297,
+                "outside": true
+              },
+              {
+                "index": 2,
+                "x": -20.0001163482666,
+                "y": 0,
+                "z": -8.963981628417969,
+                "outside": false
+              },
+              {
+                "index": 3,
+                "x": -62.29685974121094,
+                "y": 0,
+                "z": 5.675666809082031,
+                "outside": true
+              },
+              {
+                "index": 4,
+                "x": -18.018909454345703,
+                "y": 0,
+                "z": 2.9279279708862305,
+                "outside": false
+              },
+              {
+                "index": 5,
+                "x": -9.414523124694824,
+                "y": 0,
+                "z": 17.072046279907227,
+                "outside": false
+              },
+              {
+                "index": 6,
+                "x": 50,
+                "y": 0,
+                "z": 0,
+                "outside": true
+              },
+              {
+                "index": 7,
+                "x": 19.9999942779541,
+                "y": 0,
+                "z": 3.6936941146850586,
+                "outside": false
+              },
+              {
+                "index": 8,
+                "x": 19.864830017089844,
+                "y": 0,
+                "z": -8.378378868103027,
+                "outside": false
+              },
+              {
+                "index": 9,
+                "x": 54.594329833984375,
+                "y": 0,
+                "z": -33.33322525024414,
+                "outside": true
+              }
+            ]
+          }
+        },
+        {
+          "script_id": "43e40e80-5510-4aee-aab7-eb2b6851203c",
+          "type": "send",
+          "payload": {
+            "event": "field_after_plugin",
+            "n": 50,
+            "inning": 0,
+            "completed": 18,
+            "over": 19,
+            "preset": 46,
+            "outside": 3,
+            "current": 2390,
+            "points": [
+              {
+                "index": 1,
+                "x": 19.549650192260742,
+                "y": 0,
+                "z": 10.360379219055176,
+                "outside": false
+              },
+              {
+                "index": 2,
+                "x": 63.288021087646484,
+                "y": 0,
+                "z": 4.189180374145508,
+                "outside": true
+              },
+              {
+                "index": 3,
+                "x": 6.756613254547119,
+                "y": 0,
+                "z": -63.33320999145508,
+                "outside": true
+              },
+              {
+                "index": 4,
+                "x": -58.7835807800293,
+                "y": 0,
+                "z": 24.639568328857422,
+                "outside": true
+              },
+              {
+                "index": 5,
+                "x": 19.730623245239258,
+                "y": 0,
+                "z": -5.630630970001221,
+                "outside": false
+              },
+              {
+                "index": 6,
+                "x": 7.612720966339111,
+                "y": 0,
+                "z": -19.279253005981445,
+                "outside": false
+              },
+              {
+                "index": 7,
+                "x": -7.657540798187256,
+                "y": 0,
+                "z": -20.810802459716797,
+                "outside": false
+              },
+              {
+                "index": 8,
+                "x": -20.09098243713379,
+                "y": 0,
+                "z": -6.3063063621521,
+                "outside": false
+              },
+              {
+                "index": 9,
+                "x": -19.864830017089844,
+                "y": 0,
+                "z": 8.378378868103027,
+                "outside": false
+              }
+            ]
+          }
+        },
+        {
+          "script_id": "43e40e80-5510-4aee-aab7-eb2b6851203c",
+          "type": "send",
+          "payload": {
+            "event": "field_after_plugin",
+            "n": 50,
+            "inning": 0,
+            "completed": 19,
+            "over": 20,
+            "preset": 11,
+            "outside": 4,
+            "current": 29933,
+            "points": [
+              {
+                "index": 1,
+                "x": -58.69383239746094,
+                "y": 0,
+                "z": -24.594860076904297,
+                "outside": true
+              },
+              {
+                "index": 2,
+                "x": -20.0001163482666,
+                "y": 0,
+                "z": -8.963981628417969,
+                "outside": false
+              },
+              {
+                "index": 3,
+                "x": -62.29685974121094,
+                "y": 0,
+                "z": 5.675666809082031,
+                "outside": true
+              },
+              {
+                "index": 4,
+                "x": -18.018909454345703,
+                "y": 0,
+                "z": 2.9279279708862305,
+                "outside": false
+              },
+              {
+                "index": 5,
+                "x": -9.414523124694824,
+                "y": 0,
+                "z": 17.072046279907227,
+                "outside": false
+              },
+              {
+                "index": 6,
+                "x": 50,
+                "y": 0,
+                "z": 0,
+                "outside": true
+              },
+              {
+                "index": 7,
+                "x": 19.9999942779541,
+                "y": 0,
+                "z": 3.6936941146850586,
+                "outside": false
+              },
+              {
+                "index": 8,
+                "x": 19.864830017089844,
+                "y": 0,
+                "z": -8.378378868103027,
+                "outside": false
+              },
+              {
+                "index": 9,
+                "x": 54.594329833984375,
+                "y": 0,
+                "z": -33.33322525024414,
+                "outside": true
+              }
+            ]
+          }
+        },
+        {
+          "script_id": "43e40e80-5510-4aee-aab7-eb2b6851203c",
+          "type": "send",
+          "payload": {
+            "event": "field_after_plugin",
+            "n": 50,
+            "inning": 0,
+            "completed": 20,
+            "over": 21,
+            "preset": 46,
+            "outside": 3,
+            "current": 4941,
+            "points": [
+              {
+                "index": 1,
+                "x": 19.549650192260742,
+                "y": 0,
+                "z": 10.360379219055176,
+                "outside": false
+              },
+              {
+                "index": 2,
+                "x": 50,
+                "y": 0,
+                "z": 0,
+                "outside": true
+              },
+              {
+                "index": 3,
+                "x": 6.756613254547119,
+                "y": 0,
+                "z": -63.33320999145508,
+                "outside": true
+              },
+              {
+                "index": 4,
+                "x": -58.7835807800293,
+                "y": 0,
+                "z": 24.639568328857422,
+                "outside": true
+              },
+              {
+                "index": 5,
+                "x": 19.730623245239258,
+                "y": 0,
+                "z": -5.630630970001221,
+                "outside": false
+              },
+              {
+                "index": 6,
+                "x": 7.612720966339111,
+                "y": 0,
+                "z": -19.279253005981445,
+                "outside": false
+              },
+              {
+                "index": 7,
+                "x": -7.657540798187256,
+                "y": 0,
+                "z": -20.810802459716797,
+                "outside": false
+              },
+              {
+                "index": 8,
+                "x": -20.09098243713379,
+                "y": 0,
+                "z": -6.3063063621521,
+                "outside": false
+              },
+              {
+                "index": 9,
+                "x": -19.864830017089844,
+                "y": 0,
+                "z": 8.378378868103027,
+                "outside": false
+              }
+            ]
+          }
+        },
+        {
+          "script_id": "43e40e80-5510-4aee-aab7-eb2b6851203c",
+          "type": "send",
+          "payload": {
+            "event": "field_after_plugin",
+            "n": 50,
+            "inning": 0,
+            "completed": 21,
+            "over": 22,
+            "preset": 46,
+            "outside": 3,
+            "current": 2390,
+            "points": [
+              {
+                "index": 1,
+                "x": -19.549650192260742,
+                "y": 0,
+                "z": -10.360379219055176,
+                "outside": false
+              },
+              {
+                "index": 2,
+                "x": -63.288021087646484,
+                "y": 0,
+                "z": -4.189180374145508,
+                "outside": true
+              },
+              {
+                "index": 3,
+                "x": 50,
+                "y": 0,
+                "z": 0,
+                "outside": true
+              },
+              {
+                "index": 4,
+                "x": 58.7835807800293,
+                "y": 0,
+                "z": -24.639568328857422,
+                "outside": true
+              },
+              {
+                "index": 5,
+                "x": -19.730623245239258,
+                "y": 0,
+                "z": 5.630630970001221,
+                "outside": false
+              },
+              {
+                "index": 6,
+                "x": -7.612720966339111,
+                "y": 0,
+                "z": 19.279253005981445,
+                "outside": false
+              },
+              {
+                "index": 7,
+                "x": 7.657540798187256,
+                "y": 0,
+                "z": 20.810802459716797,
+                "outside": false
+              },
+              {
+                "index": 8,
+                "x": 20.09098243713379,
+                "y": 0,
+                "z": 6.3063063621521,
+                "outside": false
+              },
+              {
+                "index": 9,
+                "x": 19.864830017089844,
+                "y": 0,
+                "z": -8.378378868103027,
+                "outside": false
+              }
+            ]
+          }
+        },
+        {
+          "script_id": "43e40e80-5510-4aee-aab7-eb2b6851203c",
+          "type": "send",
+          "payload": {
+            "event": "field_after_plugin",
+            "n": 50,
+            "inning": 0,
+            "completed": 22,
+            "over": 23,
+            "preset": 45,
+            "outside": 3,
+            "current": 4941,
+            "points": [
+              {
+                "index": 1,
+                "x": 18.96381187438965,
+                "y": 0,
+                "z": 12.882810592651367,
+                "outside": false
+              },
+              {
+                "index": 2,
+                "x": 19.9097843170166,
+                "y": 0,
+                "z": 4.954955101013184,
+                "outside": false
+              },
+              {
+                "index": 3,
+                "x": 50,
+                "y": 0,
+                "z": 0,
+                "outside": true
+              },
+              {
+                "index": 4,
+                "x": -54.594329833984375,
+                "y": 0,
+                "z": 33.33322525024414,
+                "outside": true
+              },
+              {
+                "index": 5,
+                "x": 19.86496353149414,
+                "y": 0,
+                "z": -7.612576484680176,
+                "outside": false
+              },
+              {
+                "index": 6,
+                "x": 9.414523124694824,
+                "y": 0,
+                "z": -17.972946166992188,
+                "outside": false
+              },
+              {
+                "index": 7,
+                "x": -10.720711708068848,
+                "y": 0,
+                "z": -61.08092498779297,
+                "outside": true
+              },
+              {
+                "index": 8,
+                "x": -19.189180374145508,
+                "y": 0,
+                "z": -8.198198318481445,
+                "outside": false
+              },
+              {
+                "index": 9,
+                "x": -18.96392822265625,
+                "y": 0,
+                "z": 10.85584831237793,
+                "outside": false
+              }
+            ]
+          }
+        },
+        {
+          "script_id": "43e40e80-5510-4aee-aab7-eb2b6851203c",
+          "type": "send",
+          "payload": {
+            "event": "field_after_plugin",
+            "n": 50,
+            "inning": 0,
+            "completed": 23,
+            "over": 24,
+            "preset": 46,
+            "outside": 3,
+            "current": 2390,
+            "points": [
+              {
+                "index": 1,
+                "x": -19.549650192260742,
+                "y": 0,
+                "z": -10.360379219055176,
+                "outside": false
+              },
+              {
+                "index": 2,
+                "x": -63.288021087646484,
+                "y": 0,
+                "z": -4.189180374145508,
+                "outside": true
+              },
+              {
+                "index": 3,
+                "x": 50,
+                "y": 0,
+                "z": 0,
+                "outside": true
+              },
+              {
+                "index": 4,
+                "x": 58.7835807800293,
+                "y": 0,
+                "z": -24.639568328857422,
+                "outside": true
+              },
+              {
+                "index": 5,
+                "x": -19.730623245239258,
+                "y": 0,
+                "z": 5.630630970001221,
+                "outside": false
+              },
+              {
+                "index": 6,
+                "x": -7.612720966339111,
+                "y": 0,
+                "z": 19.279253005981445,
+                "outside": false
+              },
+              {
+                "index": 7,
+                "x": 7.657540798187256,
+                "y": 0,
+                "z": 20.810802459716797,
+                "outside": false
+              },
+              {
+                "index": 8,
+                "x": 20.09098243713379,
+                "y": 0,
+                "z": 6.3063063621521,
+                "outside": false
+              },
+              {
+                "index": 9,
+                "x": 19.864830017089844,
+                "y": 0,
+                "z": -8.378378868103027,
+                "outside": false
+              }
+            ]
+          }
+        },
+        {
+          "script_id": "43e40e80-5510-4aee-aab7-eb2b6851203c",
+          "type": "send",
+          "payload": {
+            "event": "field_after_plugin",
+            "n": 50,
+            "inning": 0,
+            "completed": 24,
+            "over": 25,
+            "preset": 11,
+            "outside": 4,
+            "current": 29933,
+            "points": [
+              {
+                "index": 1,
+                "x": 58.69383239746094,
+                "y": 0,
+                "z": 24.594860076904297,
+                "outside": true
+              },
+              {
+                "index": 2,
+                "x": 20.0001163482666,
+                "y": 0,
+                "z": 8.963981628417969,
+                "outside": false
+              },
+              {
+                "index": 3,
+                "x": 50,
+                "y": 0,
+                "z": 0,
+                "outside": true
+              },
+              {
+                "index": 4,
+                "x": 18.018909454345703,
+                "y": 0,
+                "z": -2.9279279708862305,
+                "outside": false
+              },
+              {
+                "index": 5,
+                "x": 9.414523124694824,
+                "y": 0,
+                "z": -17.072046279907227,
+                "outside": false
+              },
+              {
+                "index": 6,
+                "x": -12.747550010681152,
+                "y": 0,
+                "z": -64.18891143798828,
+                "outside": true
+              },
+              {
+                "index": 7,
+                "x": -19.9999942779541,
+                "y": 0,
+                "z": -3.6936941146850586,
+                "outside": false
+              },
+              {
+                "index": 8,
+                "x": -19.864830017089844,
+                "y": 0,
+                "z": 8.378378868103027,
+                "outside": false
+              },
+              {
+                "index": 9,
+                "x": -54.594329833984375,
+                "y": 0,
+                "z": 33.33322525024414,
+                "outside": true
+              }
+            ]
+          }
+        },
+        {
+          "script_id": "43e40e80-5510-4aee-aab7-eb2b6851203c",
+          "type": "send",
+          "payload": {
+            "event": "field_after_plugin",
+            "n": 50,
+            "inning": 0,
+            "completed": 25,
+            "over": 26,
+            "preset": 45,
+            "outside": 3,
+            "current": 25003,
+            "points": [
+              {
+                "index": 1,
+                "x": -18.96381187438965,
+                "y": 0,
+                "z": -12.882810592651367,
+                "outside": false
+              },
+              {
+                "index": 2,
+                "x": -19.9097843170166,
+                "y": 0,
+                "z": -4.954955101013184,
+                "outside": false
+              },
+              {
+                "index": 3,
+                "x": -54.459449768066406,
+                "y": 0,
+                "z": 33.96388244628906,
+                "outside": true
+              },
+              {
+                "index": 4,
+                "x": 54.594329833984375,
+                "y": 0,
+                "z": -33.33322525024414,
+                "outside": true
+              },
+              {
+                "index": 5,
+                "x": -19.86496353149414,
+                "y": 0,
+                "z": 7.612576484680176,
+                "outside": false
+              },
+              {
+                "index": 6,
+                "x": -9.414523124694824,
+                "y": 0,
+                "z": 17.972946166992188,
+                "outside": false
+              },
+              {
+                "index": 7,
+                "x": 50,
+                "y": 0,
+                "z": 0,
+                "outside": true
+              },
+              {
+                "index": 8,
+                "x": 19.189180374145508,
+                "y": 0,
+                "z": 8.198198318481445,
+                "outside": false
+              },
+              {
+                "index": 9,
+                "x": 18.96392822265625,
+                "y": 0,
+                "z": -10.85584831237793,
+                "outside": false
+              }
+            ]
+          }
+        }
+      ],
+      "messages_truncated": false
+    },
+    "confidence": "observed",
+    "authority": "external-service",
+    "environment": null,
+    "limitations": [
+      "Artifact identity is unavailable for this observation.",
+      "The target operating system and architecture were not reported by this observation."
+    ],
+    "relationship_coverage": null,
+    "locations": [],
+    "evidence_links": []
+  }
+}
