@@ -125,16 +125,6 @@ The field family and variant are separate choices. The native FastOdi, MediumOdi
 
 Each of the other four variants has a 25% selection probability. An immediate repeat is excluded; an older variant can return after an intervening selection. Variants 6–10 are not used by this policy.
 
-## Outside-circle limits
-
-For 40/45/50 overs, the plugin uses these limits irrespective of the game's 15/20-over powerplay setting:
-
-| Match | Maximum 2 outside | Maximum 4 outside | Maximum 5 outside |
-|---|---|---|---|
-| 40 overs | Overs 1–8 | Overs 9–32 | Overs 33–40 |
-| 45 overs | Overs 1–9 | Overs 10–36 | Overs 37–45 |
-| 50 overs | Overs 1–10 | Overs 11–40 | Overs 41–50 |
-
 ## Logging and troubleshooting
 
 The log is **`Cricket07BowlingPlan.log`**, beside the ASI. It is appended across runs: inspect the latest version/initialization entry and the lines after it.
